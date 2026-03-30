@@ -1,3 +1,4 @@
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/a2865fe3-1a90-4c73-acbf-508b3c046085" />
 # belajar_flutter_rizki
 
 A new Flutter project.
