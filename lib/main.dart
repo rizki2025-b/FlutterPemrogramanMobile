@@ -40,17 +40,16 @@ class _PraktikumPageState extends State<PraktikumPage> {
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
               child: const Text(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n"
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris\n"
-                "nisi ut aliquip ex ea commodo consequat. "
-                "Duis aute irure dolor in reprehenderit in voluptate velit esse "
-                "cillum dolore eu fugiat nulla pariatur. "
-                "Excepteur sint occaecat cupidatat non proident, sunt in culpa "
-                "qui officia deserunt mollit anim id est laborum.\n\n"
-                "Tambahkan lagi teks panjang agar terlihat bisa scroll..."
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n",
+                "Gambar dibawah ini menampilkan seporsi mie kuah khas dari aceh. "
+                "disajikan dengan tampilan yang sangat menggugah selera.\n"
+                "Terlihat mie kuning tebal yang dilapisi kuah kental berwarna merah kecokelatan,\n"
+                "mencerminkan bumbu rempah yang kaya dan kuat. Hidangan ini dilengkapi dengan berbagai topping seperti udang, "
+                "potongan daging, serta seafood seperti cumi. Di sisi piring terdapat irisan bawang merah segar, "
+                "potongan timun, dan jeruk nipis yang menambah kesegaran. "
+                "disajikan di atas alas daun pisang yang memberikan kesan tradisional, "
+                "sementara di sampingnya terdapat kerupuk sebagai pelengkap."
+                "Secara keseluruhan, hidangan ini tampak gurih, pedas, "
+                "dan kaya rasa, khas masakan Aceh yang terkenal.\n",
                 textAlign: TextAlign.justify,
                 style: TextStyle(fontSize: 16),
               ),
@@ -66,7 +65,7 @@ class _PraktikumPageState extends State<PraktikumPage> {
             color: _showImage ? Colors.transparent : Colors.grey[300],
             child: _showImage
                 ? Image.asset(
-                    'assets/flutter_logo.png', // pastikan ada di assets
+                    'assets/mie_aceh.png', // pastikan ada di assets
                     fit: BoxFit.contain,
                   )
                 : const Center(
